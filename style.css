@@ -1,0 +1,37 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+#main{
+display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+}
+#centre{
+  height: 150px;
+  width: 600px;
+  background-color: black;
+
+
+  border-radius:20px;
+  display: block;
+}
+#centre h3{
+  color:white;
+  margin-left:280px;
+   
+}
+body{
+  transition:2s;
+  
+}
+#btn{
+  background-color:white;
+  color:black;
+  border-radius: 10px;
+  height: 40px;
+ width: 500px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+}
